@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Agence Artistique Acteurs Artisans</title>
+    <link rel="icon" type="image/png" href="img/Icons/IconSite.png" />
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+
+
+  </head>
+
+<body>
+
+<div class="EcoleActeurs"><a href="../Ecole/ecole.html"><p>Site de l'Ecole Acteurs Artisans</p><img src="img/fleche_ecole.png"></a></div>
+
+<div id="site">
+	<div id="header">
+		<a href="http://www.acteurs-artisans.com" id="Accueil" title="Accueil"><img id="logo" src="img/logo.png" alt="Accueil"></a>
+		<ul id="menu" style="text-decoration: none;list-style-type: none;">
+			<li><a id="talent" href="Talents-Acteurs-Artisans.html">LES TALENTS</a></li>
+			<li><a id="agence" href="Agence-Acteurs-Artisans.html">L'AGENCE</a></li>
+			<li><a id="Lesliens" href="LesLiens.html">les liens</a></li>
+			<li><a href="#" style="color: rgba(192, 164, 141,1);">CONTACT</a></li>
+		</ul>
+	</div>
+
+	<div class="chargement">
+		<img src="img/chargement.gif">
+	</div>
+
+	<div id="contenu">
+		<div class="contact">
+			<div class="contactcadrage">
+			<img class="contactencadrehg" src="img/hg.png"><img class="contactencadrebg" src="img/bg.png"><img class="contactencadrehd" src="img/hd.png"><img class="contactencadrebd" src="img/bd.png">
+			</div>
+			<div class="textcontact">
+				<div class="contact_vignette">FRANCK <span style="color: rgba(192, 164, 141,1);font-family: Myriad-Pro-Bold-Condensed_31625">CABOT-DAVID</span><br><span style="color: #858585;">Agent</span><span class="spa">|</span>07.86.24.43.36</div>
+				<div class="contact_vignette">BARBARA <span style="color: rgba(192, 164, 141,1);font-family: Myriad-Pro-Bold-Condensed_31625">BALESTAS-KAZAZIAN</span><br><span style="color: #858585;">Agent</span><span class="spa">|</span>06.21.63.57.98</div>
+				<div class="coordonne">
+					<div class="imgtextcontact"><img src="img/Icons/ping.png"><span style="color: #858585;">147 bis rue d'Alésia 75014 Paris</span></div>
+					<div class="imgtextcontact"><img src="img/Icons/mail.png"><span style="color: #858585;">Agence@Acteurs-Artisans.com</span></div>
+					<div class="imgtextcontact"><img src="img/Icons/telephone.png"><span style="color: #858585;">01.45.45.04.56</span></div>
+				</div>
+				<hr style="width: 70%;border: solid rgba(192, 164, 141,.5) 1px;">
+				<p style="font-weight: bold;">Vous êtes comédiens, réalisateurs, scénaristes vous souhaitez et recherchez une agence, envoyez-nous votre cv et/ou des images de vos travaux.</p>
+			</div>
+		</div>
+		
+		<form id="form" enctype="multipart/form-data" action="contact.php" method="post" class="formulaire">
+		    <input type="text" id="name" required name="name" style="width: 47%; display: inline-block; margin-right: 20px;" placeholder="Nom">
+		    <input type="text" id="prenom" required name="prenom" style="width: 47%; display: inline;" placeholder="Prénom">
+		    <input type="email" id="email" required name="email" placeholder="Adresse mail">
+		    <input type="text" id="sujet" required name="titre" placeholder="Sujet">
+		    <textarea type="text" id="message" required name="message" placeholder="Message"></textarea>
+		    <input type="file" name="image" id="image" class="form-control">
+		    <input type="submit" id="submit" value="Envoyer" >
+		</form>
+	</div>
+			<!-- Contact message notification debut-->
+
+		    <div class="alert_notification_succes">Message Envoyé.</div>
+
+		    <div class="alert_notification_error">Une erreur est survenue, VeRIFIER VOS INFORMATIONS.</div>
+
+		    <!-- Contact message notification fin-->
+	
+	<div class="barresite">
+		<hr>
+	</div>
+
+	<div id="footer">	
+		<div id="social">
+			<a href=""><img alt="Twittez" src="img/Icons/Twitter.png"></a>
+			<a href=""><img alt="Facebook" src="img/Icons/Facebook.png"></a>
+		</div>		
+		<p>SARL : Société Acteurs Artisans Franck Cabot David</p>
+		<span class="spa">|</span>
+		<p>Capital : 10 000 €</p>
+		<span class="spa">|</span>	
+		<p>Numéro RCS : 497 933 408</p><br>
+		<p>Siège Social : 281, rue Saint-Honoré 75 001 Paris</p>
+		<span class="spa">|</span>
+		<p> Tél : 01.45.45.04.56</p>
+		<span class="spa">|</span>
+		<p>E-mail : Agence@Acteurs-Artisans.com</p>
+		<div id="copy">
+		<p>© 2017 Coypright -EAZENS-</p>
+	</div>
+</div>
+
+ <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ 	<script src='js/index.js'></script>
+ 	<script src='js/mail.js'></script>
+ 	<script src='js/hoverline.js'></script>
+    
+   
+  
+</body>
+</html>
+    

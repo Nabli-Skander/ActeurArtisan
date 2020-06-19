@@ -1,0 +1,90 @@
+.imgHoverS {
+  position: relative;
+  overflow: hidden;
+  min-height: 205px;
+  min-width: 308px;
+  max-width: 391px;
+  max-height: 259px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7);
+}
+
+.imgHoverS * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.imgHoverS img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.4;
+}
+
+.imgHoverS .TitreHover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.imgHoverS h2 {
+  width: 10em;
+  margin-top: 115px;
+  display: inline-block;
+  padding: 12px 5px;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.imgHoverS h2 span {
+  font-weight: 800;
+}
+
+.imgHoverS:before {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(110deg) translateY(-50%);
+  transform: rotate(110deg) translateY(-50%);
+}
+
+.imgHoverS a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.imgHoverS:hover img,
+.imgHoverS.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.imgHoverS:hover h2,
+.imgHoverS.hover h2 {
+  -webkit-transform:   translate(-145%, -50%);
+  transform:  translate(-145%, -50%);
+}
+
+.imgHoverS:hover:before,
+.imgHoverS.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}

@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex index.php
+RedirectPermanent  /email.txt https://galaxseed.etudiants3w.com/
+ErrorDocument 403 https://galaxseed.etudiants3w.com/
+

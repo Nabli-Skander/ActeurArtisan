@@ -1,0 +1,84 @@
+.navigation{
+margin-top: -300px;
+  z-index: 400;
+  position: relative;
+  opacity: 0.3;
+  
+  transition: opacity 0.5s ease-in-out;
+}
+
+.navigation:hover{
+  opacity: 0.5;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.opaci:hover + .navigation {
+  visibility: visible;
+  opacity: 0.3;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.ButtonG{
+  position:absolute;
+  top:35px;
+  left:8px;
+
+  z-index:400;
+  border:0px;
+  cursor: pointer;
+}
+
+.ButtonD{
+  position:absolute;
+  top:35px;
+  left:245px;
+
+  z-index:400;
+  border:0px;
+
+  cursor: pointer;
+}
+
+/*-------------------_BAKER_GUENNOUN-----------------*/
+
+.gallerie{
+  z-index: 3;
+  position: relative;
+  height:500px;
+  width:300px;
+  overflow:hidden;
+  margin-left: 75px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -o-box-shadow: 0 0 10px #000;
+  -ms-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+}
+
+.gallerie ul{
+  list-style-type:none;
+  position:relative;
+  height:500px;
+  width:1200px;
+  margin:0;
+  padding:0;
+  margin-left:-300px;
+}
+
+.gallerie ul li{
+  height:500px;
+  width:300px;
+  display:block;
+  float:left;
+}
+
+.gallerie ul li img{
+  width: 300px;
+  height: 500px;
+}

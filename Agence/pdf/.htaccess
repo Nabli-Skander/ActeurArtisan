@@ -1,0 +1,4 @@
+Options -Indexes
+AddType application/octet-stream .pdf
+DirectoryIndex Accueil.html
+

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'agency_fb';
+  src: url('font/AgencyFB-Reg.woff') format('woff'),
+       url('font/AgencyFB-Reg.ttf') format('truetype');
+  src: url('font/agency_fb.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('font/Myriad Pro Regular.eot');
+  src: url('font/Myriad Pro Regular.woff2') format('woff2'),
+       url('font/Myriad Pro Regular.eot?#iefix') format('embedded-opentype');
+  src: url('font/MyriadPro-Regular.woff') format('woff'),
+       url('font/MyriadPro-Regular.ttf') format('truetype'),
+       url('font/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Cond';
+  src: url('font/MyriadPro-Cond.eot');
+  src: url('font/MyriadPro-Cond.woff2') format('woff2'),
+       url('font/MyriadPro-Cond.woff') format('woff'),
+       url('font/MyriadPro-Cond.ttf') format('truetype'),
+       url('font/MyriadPro-Cond.svg#MyriadPro-Cond') format('svg'),
+       url('font/MyriadPro-Cond.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad-Pro-Bold-Condensed_31625';
+  src: url('font/Myriad-Pro-Bold-Condensed_31625.eot');
+  src: url('font/MyriadPro-BoldCond.woff') format('woff'),
+       url('font/MyriadPro-BoldCond.ttf') format('truetype'),
+       url('font/MyriadPro-BoldCond.svg#MyriadPro-BoldCond') format('svg');
+  src: url('font/Myriad-Pro-Bold-Condensed_31625.woff2') format('woff2'),
+       url('font/Myriad-Pro-Bold-Condensed_31625.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
